@@ -44,3 +44,4 @@ function createAdminUser(user = new User(generateId())) {
 const user = new User(generateId())
 createAdminUser(user);
 user.id
+
